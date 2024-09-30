@@ -43,6 +43,7 @@ function ResponsiveAppBar() {
     <AppBar
       position="absolute"
       sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
+      color={"transparent"}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -51,7 +52,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -104,7 +105,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
